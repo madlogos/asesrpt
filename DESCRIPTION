@@ -1,0 +1,27 @@
+Package: asesrpt
+Type: Package
+Title: ASES Analytic Toolkit on Reporting 
+Version: 0.1.0
+Date: 2019-6-14
+Author: Yiying Wang <wangy@aetna.com>
+Maintainer: Yiying Wang <wangy@aetna.com>
+Contributor: Shanshan Zou <zous@aetna.com>
+Description: This package contains frequently used functions for HMS team,
+    regarding reporting.
+Depends:
+    R (>= 2.1.0)
+License: GPL
+Encoding: UTF-8
+LazyLoad: true
+LazyData: true
+Imports:
+	aseskit,
+    DT,
+	ggplot2,
+	recharts,
+	reshape2,
+	stringr
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat,
+    vdiffr
